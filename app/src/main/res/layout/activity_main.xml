@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insira o valor a ser convertido"
+        android:inputType="numberDecimal" />
+
+    <Spinner
+        android:id="@+id/spConversions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btConvert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Converter" />
+
+    <Button
+        android:id="@+id/btClean"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="Limpar"
+        android:textColor="@color/black" />
+
+</LinearLayout>
